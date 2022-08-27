@@ -4,7 +4,7 @@
 
 # What is StringToURL? 
 
-[StringToURL](https://stringtourl.com/) is a pastebin-like app that allows you to share any text-based file as an encrypted URL.
+[StringToURL](https://hot-meal.github.io/string-to-url/) is a pastebin-like app that allows you to share any text-based file as an encrypted URL.
 
 Your data is not stored anywhere but the link itself. No databases, logs or any other permanent record beside the Link you have only.
 
@@ -31,19 +31,19 @@ Here is an example of generated code and how it looks (click on the screenshot t
 
 ```html
 <iframe
-    width="100%"
-    height="243"
+    width="250"
+    height="250"
     frameborder="0"
-    src="https://stringtourl.com/?l=py#XQAAAQAbAQAAAAAAAAA0m0pnuFI8c+qagMoNTEcTIfyUWbZjtjmBYcmJSzoNwS5iVMWHzvowv3IPM0vOG5cjrtDRTSVP/0biTIrrahfmbkuMQBBeSiSGpaJOqYJiKmUDYn2Gp1RtWE6gm8fLHMB4eyZ3+rEbUQwWyMcmWqvZ7m96RUeFyZdYbE85JGvhghqF8cyPB0ZjV0OQWsDxn5O5ysMrIcL+pKPk89EtLjAHhA1LZL9F3hzAtTx7I+GlyrxhhXGxAN//CvtaAA=="
+    src="https://hot-meal.github.io/string-to-url/#XQAAAQAxAQAAAAAAAAAmG8pGZ1ryd7h9hoRflit8ct5gajQnTXx9c3swhoQps2M58+m1uzfhI+D8foaB1aKZaMHh6ZaCSAeHI8FpM+Xr/aItZkvcdblf9mBLvbPTqd6YJLrYLJQQtlcDDPbtzbMLMYTVNiDfbTzI9xuzRUa0QUniHw0bBDuH/yR2OSuW5X5VgL627HgBLr/oa2N+g7LhcjMDuYS7WSiBMmCwvJZvQyX5BfJkn/C7Tj5o3QaU+NoYaq4rifHLOQfeB4H0T989GzRUbQZB0ip1dZ/pCebwlfcuM1X8/SKzBhGd35908J0dIIsP6//2039Y"
 ></iframe>
 ```
 
-### Offline usage
+### Offline
 
-StringToURL use pre-caching and localstorage to ensure that it works offline, if you need it. Even without an internet connection.
+StringToURL uses pre-caching and localstorage to ensure that it works offline, if you need it. Even without an internet connection.
 
 
-### Editor features
+### Editor
 
 -   Syntax highlighting with language selector
 -   Line wrapping 
@@ -78,15 +78,15 @@ StringToURL links can also be from your computers command line:
 
 ```bash
 # Linux
-echo -n 'Hello World' | lzma | base64 -w0 | xargs -0 printf "https://stringtourl.com/#%s\n"
+echo -n 'Hello World' | lzma | base64 -w0 | xargs -0 printf "https://hot-meal.github.io/string-to-url/#%s\n"
 
 # Mac
-echo -n 'Hello World' | lzma | base64 | xargs -0 printf "https://stringtourl.com/#%s\n"
+echo -n 'Hello World' | lzma | base64 | xargs -0 printf "https://hot-meal.github.io/string-to-url/#%s\n"
 
 # Windows Subsystem for Linux
-echo -n 'Hello World' | xz --format=lzma | base64 -w0 | printf "https://stringtourl.com/#%s\n" "$(cat -)"
+echo -n 'Hello World' | xz --format=lzma | base64 -w0 | printf "https://hot-meal.github.io/string-to-url/#%s\n" "$(cat -)"
 ```
 
-## Forking & Cloning
+## Cloning
 
 Feel free to fork or clone this project. Any StringToURL link can be opened on any fork of this project. It is 100% cross-compatible.
